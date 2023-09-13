@@ -1,8 +1,4 @@
-import fs from "fs";
-console.log(123);
-function addNumber(a, b) {
-    return a + b;
-}
-const res = addNumber(3, 4);
-console.log(res);
-fs.writeFileSync("test.txt", "test");
+import bubble_sort from './sort/bubble_sort.js';
+let arr = [3, 4, 9, 2, 6];
+const srtArr = bubble_sort(arr);
+console.log(srtArr);

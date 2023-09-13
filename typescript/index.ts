@@ -1,8 +1,6 @@
-console.log(123);
+import bubble_sort from './sort/bubble_sort.js'
 
-function addNumber(a: number, b:number) {
-    return a + b;
-}
+let arr = [3,4,9,2,6];
+const srtArr = bubble_sort(arr);
 
-const res =addNumber(3,4);
-console.log(res);
+console.log(srtArr);
